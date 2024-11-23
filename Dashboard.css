@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.interface {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between boxes */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.box {
+    flex: 1; /* Ensures boxes take equal width */
+    margin: 0 10px; /* Adds space between boxes */
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.logout{
+
+    text-align: center;
+    margin-left: 50%
+}
+#container p,h1{
+    text-align: center;
+}
